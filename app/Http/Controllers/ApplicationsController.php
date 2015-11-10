@@ -9,7 +9,6 @@ use App\Http\Controllers\Controller;
 
 use App\Event;
 
-
 class ApplicationsController extends Controller
 {
     public function sendRequest(Request $request)
