@@ -1,0 +1,1017 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+h2, h3 {
+font-family: 'Hammersmith One', sans-serif;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+#evenement h3, #updateUser label{
+margin-top: 0px;
+}
+
+#blog h4 {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 2.5em;
+}
+
+p {
+  font-family: 'Gudea', sans-serif;
+}
+
+footer p, #community p, #user p, #contact p, #createEvent p {
+  font-size: 1em;
+}
+
+#about p{
+  font-size: 1.1em;
+}
+
+#comments p{
+  display: inline;
+}
+
+#event p {
+    margin-bottom: 0px;
+     font-size: 1.2em;
+}
+
+#infosEvent p{
+  font-size: 1.2em;
+}
+
+#entete hr {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  border: none;
+}
+
+/* style de la modale */
+#overlay{
+  color: black;
+  background: rgba(255,255,255,.7);
+}
+
+#overlay h4 {
+  text-align: center;
+}
+.col-lg-6{
+  border-top: 1px solid #C0C0BF;
+  border-left: 1px solid #C0C0BF;
+  border-right: 1px solid #C0C0BF;
+  border-radius-top: 80px;
+  width: 100%;
+  float: none;
+  padding-bottom: 3px;
+  margin-bottom: 0;
+}
+
+#form div{
+  border-bottom: none;
+
+}
+#modal, #registerform, #bot{
+  width: 400px;
+  background-color: white;
+}
+input #exampleInputEmail1, input #exampleInputPassword1 {
+    margin-top: 5px;
+}
+
+.top:hover, .col-lg-6:hover{
+  cursor: pointer;
+  color: grey;
+}
+#bot{
+  border-bottom: 1px solid #C0C0BF;
+  border-radius-bottom: 80px;
+  position: absolute;
+  left: 0px;
+}
+#mid{
+  padding-bottom: 0px;
+}
+#exampleInputEmail1{
+  margin-top: 15px;
+}
+#registerform{
+  display: none;
+}
+
+/* overlay + modal styling */
+#overlay, #modalAttend{
+     display: none;
+     position: absolute;
+     left: 0px;
+     top: 75  px;
+     width:100%;
+     height:100%;
+     text-align:center;
+     z-index: 1000;
+}
+#modal {
+  position: relative;
+  margin: auto;
+  text-align: left;
+}
+#button, #buttonAttend{
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  color: lightblue;
+  font-style: bold;
+  background-color: white;
+  border: 2px solid lightblue;
+  border-radius: 88px;
+  z-index: 2;
+  width: 22px;
+  text-align: center;
+}
+
+/*------------------ fin style modale--------- */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #BBB9B9;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/*hjhkhkhkjhkjhkjhkjhk*/
+
+#inscription button , #login button, #requireLogin button{
+  margin: 0;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background: none;
+  color: white;
+}
+
+#inscription button , #login button{
+  margin-right: 5px;
+  color: white;
+}
+
+#requireLogin button{
+  color: black;
+}
+
+#vegetarian a:hover {
+    color: #A6B06D;
+}
+
+#vegan a:hover {
+    color: #CC99CC; /*nv class*/
+}
+
+#ssgluten a:hover {
+    color: #FF8830 ;
+}
+
+#sslactose a:hover {   /*nv class*/
+    color: #99CCCC;
+}
+
+#events a:hover {
+    color: #8C091E;
+}
+/* ----------------------------- nav -------------------------*/
+.fixNavigation {
+    z-index: 9999;
+    position: fixed;
+    top: 0; /* Mise en forme */
+    width: 100%; /* <-- Largeur de votre site */
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+nav .dropdown-menu {
+    background-color: #8C091E;
+}
+
+#navigation .dropdown-menu>li>a {
+  color: white !important;
+}
+
+#navigation .dropdown-menu li a:hover {
+    color: #BBB9B9 !important;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+
+.nav-home>li>a {
+    padding: 10px 30px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    background-color: #8C091E;
+}
+
+.navbar, .navbar-default {
+    border:none !important;
+}
+
+.navbar-default .navbar-nav li a {
+    color: white;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #BBB9B9;
+}
+
+.navbar-default .navbar-nav>.open>a {
+    background-color: white;
+}
+
+/* ----------------------------- fin de la nav -------------------------*/
+
+/* ----------------------------- class couleur -------------------------*/
+
+.gris {
+  background-color: #D4D4D4;
+}
+
+.bordeauNav {
+    background-color: #8C091E;
+}
+
+.ssgluten {
+    background-color:#CC6633 ;  /*nv class*/
+}
+
+.vege {
+    background-color:#669933 ;  /*nv class*/
+}
+
+.vegan{
+    background-color:#993366 ;  /*nv class*/
+}
+
+.sslactose {
+    background-color:#669999  ;  /*nv class*/
+}
+
+.color-white {  /*nv class*/
+    color: white;
+ }
+
+ .green {
+    background-color: #ABCE48; /*nv class*/
+ }
+
+ .anthracite {                   /*-- nv classe --*/
+    background-color: #303B34;
+}
+
+.rose {                         /*-- nv classe --*/
+    background-color: #CC6699;
+}
+
+
+
+/*----------------Fin classes couleurs---------------*/
+.paddingTB10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.paddingTB20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.marginTB10 {               /* nvl classe */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.marginTB20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.paddingTB25 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.paddingTB40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.paddingLR20 {              /*-- nv classe --*/
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.paddingLR10 {              /*-- nv classe --*/
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.paddingLR15 {              /*-- nv classe --*/
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.paddingLR40 {              /*-- nv classe --*/
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.marginTop10 {
+    margin-top: 10px !important;
+}
+.marginTop20 {
+    margin-top: 20px !important;
+}
+
+.noPadding {
+    padding: 0;
+}
+
+.noMargin {
+    margin: 0;
+}
+
+/*----------------- liste des events ----------*/
+#updateUser label{
+    margin-top: 0;
+}
+
+/*-------Formulaire update profil user -----*/
+.photoUpload input {
+ display: inline;
+}
+/*----------------page userProfile----------------------------*/
+blockquote {
+  font-size: 14px;
+}
+/* ----------------------page event------------------------------- */
+.thumbnail {
+    padding: 10px;
+}
+
+.thumbnail img {
+    margin-bottom: 10px;
+    border: solid 1px black;
+}
+
+#event button {
+    padding-left: 10px;
+    border: none;
+}
+
+.btn-block+.btn-block {
+  margin-top: 0px;
+}
+
+/* --------------------------Gerer events------------------------*/
+/* Structure du conteneur */
+
+#gererevenements{
+  width: 75%;
+  padding: 0px 0px 0px 0px;
+  margin: auto;
+}
+#gerer{
+    margin-bottom: 20px;
+}
+
+/*style de la barre d'onglets*/
+ul.nav-justified li{
+  text-align: center;
+  padding: 10px 15px 25px 15px;
+  border: 2px solid #8C091E;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  position: relative;
+}
+ul.nav-justified li a{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 6px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+ul.nav-justified li:hover{
+  background-color: #8C091E;
+  cursor: pointer;
+}
+ul.nav-justified li a:hover{
+  color: white;
+}
+ul.nav-justified{
+  padding: 10px 0px 0px 0px;
+  list-style: none;
+  margin: 0 0 0 0;
+}
+
+/*style des evenemnts*/
+.tab-content{
+  margin: 0 auto; border-bottom: 2px solid #8C091E;
+  border-left: 2px solid #8C091E;
+  border-right: 2px solid #8C091E;
+  text-align: left;
+}
+.tab-content ul{
+  list-style: none;
+  text-align: left;
+}
+.tab-content ul li p, .gerer_event{
+  display: block;
+  float: left;
+}
+.tab-content #inscriptions.active, #enattente.active, #organises.active, ul li{
+  position: relative;
+}
+.cancel_event{
+  padding: 6px 2px 6px 2px;
+  margin-top: 2px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.tab-content .gerer_event, .confirmer_event, .update_event{
+  padding: 6px 2px 6px 2px;
+  margin-top: 2px;
+  float: right;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+.gerer_event, .confirmer_event,.update_event{
+  z-index: 80;
+}
+.buttons_gerer_event, .dropdown_menu{
+  float: right;
+  margin-top: 1px;
+}
+.comment_field{
+  width: 80%;
+}
+.buttons_gerer_event{
+  display: none;
+}
+
+.tab-content .gerer_insc{
+  padding: 6px 0px 6px 0px;
+  position: absolute;
+  right: 17px;
+  top: 75px;
+}
+.tab-content article {
+  position: relative;
+}
+
+.tab-content ul li{
+  display: inline-table;
+  width: 100%;
+}
+
+#evenement{
+  width: 100%;
+  position: relative;
+  border: 1px solid grey;
+  padding: 5px;
+  margin: 0 auto;
+  text-align: left;
+}
+/*
+ section{
+  display: inline-block;
+  margin-bottom: 6px;
+} */
+
+.right{
+  float: right;
+}
+#right{
+  margin-top: 13px;
+}
+#right span{
+  margin: 0px 0px 0px 7px;
+}
+span{
+  font-size: 15px;
+}
+
+/* FonctionnalitÃ© */
+.active{
+  display: none;
+}
+
+  #gererevenements{
+    width: 100%;
+  }
+
+  .tab-content .comment{
+   padding-top: 20px
+  }
+  .tab-content #inscriptions.active, #enattente.active, #organises.active, ul li{
+    position: relative;
+  }
+  .tab-content .comment{
+    padding-top: 20px;
+  }
+
+
+
+
+/* Page require Login si utilisateur non connectÃ© */
+
+#requireLogin article{
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+/* ----------------Modale d'affichage des utilisateurs-----------*/
+  .overlay, .overlay2 {
+    background: rgba(255,255,255,.7);
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 75px;
+    width:100%;
+    height:100%;
+    text-align:center;
+    z-index: 1000;
+}
+  .fermer_modale{
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    color: lightblue;
+    font-style: bold;
+    background-color: white;
+    border: 2px solid lightblue;
+    border-radius: 88px;
+    z-index: 2;
+    width: 22px;
+    text-align: center;
+}
+  .conteneur_bis{
+    background-color: #F5F5F5;
+    position: relative;
+    margin: auto;
+    width: 90%;
+  }
+  .alignright{
+    text-align: right;
+    height: 124px;
+  }
+  .couleur{
+    display: none
+  }
+  .individu section{
+    display: inline-block;
+  }
+  .utilisateur{
+    margin-top: 25px;
+    border-top: 2px solid #8C091E;
+  }
+/* style de l'image + nom */
+  .utilisateur .image_prenom{
+    position: relative;
+    float: left;
+    clear: none;
+    overflow: hidden;
+    display: inline-block;
+    }
+  .utilisateur img{
+    width: 110px;
+    height: auto;
+    float: left;
+    position: relative;
+    z-index: 1;
+    }
+  .utilisateur .image_prenom h4{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+    width: 110px;
+    background-color:rgba(0, 0, 0, 0.3);
+    }
+/* Fin style image + nom
+ Style commentaire utilisateur */
+  .commentaire{
+    padding-right: 15px;
+    line-height: 25px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    }
+  .commentaire a{
+    font-style: italic;
+    color: lightblue;
+    }
+/* Fin style commentaire utilisateur
+Style apercu profil*/
+  .profile_preview, .commentaire{
+    display: block;
+    text-align: left;
+  }
+
+/* Fin style commentaire utilisateur
+Style boutons */
+  .utilisateur ul{
+    padding: 0px;
+  }
+
+    .utilisateur li{
+    list-style: none;
+    margin-top: 13px;
+  }
+  .utilisateur li:hover{
+    background-color: lightblue;
+    cursor: pointer;
+  }
+  .utilisateur .liste{
+    display: inline-block;
+    width: 60%;
+  }
+
+  .utilisateur{
+        width: 100%
+      }
+
+    .wide {
+      display: none;
+    }
+
+    .display_bottom_profile{
+      display: none;
+    }
+
+    .commentaire{
+      margin-top: 0;
+    }
+
+/*Fin style boutons
+Style des divs display*/
+  .display_bottom_comment, .display_bottom_profile{
+    background-color: darkgreen;
+    color: white;
+    height: 18px;
+    text-align: center;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    margin-top: 3px;
+    height: 25px;
+  }
+  .display_bottom_profile:hover, .display_bottom_comment:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+  }
+
+/*Modale d'envoi de message lors de la participation à un evenement*/
+  .fermer_modale_p, .fermer_modale_2{
+    position: absolute;
+    top: -12px;
+    right: -10px;
+    color: lightblue;
+    font-style: bold;
+    background-color: white;
+    border: 2px solid lightblue;
+    border-radius: 88px;
+    z-index: 2;
+    width: 22px;
+    text-align: center;
+}
+#modale_participation, #modale_annulation{
+  display: block;
+  margin-top: 350px;
+}
+#modale_participation form, #modale_annulation form{
+  margin-top: 500px;
+  margin: auto;
+  width: 360px;
+  position: relative;
+  text-align: center;
+  border: 4px solid #F5F5F5;
+  background-color: white;
+}
+#champ_message{
+  width: 350px;
+  height: 110px;
+  text-align: top;
+  resize: none;
+}
+#submit_button_p{
+  display: block;
+  width: 350px;
+  height: 35px;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #337ab7;
+  border: 1px solid #2e6da4;
+  margin: auto;
+  color: white;
+  margin-top: 10px;
+}
+#submit_button:hover{
+  background-color: #468CC7;
+}
+
+/* ----------------------------- footer -------------------------*/
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+
+ .logo {
+    color: white;
+    font-size: 2.0em;
+    text-align: center;
+    padding-top: 12px;
+ }
+
+  footer{
+    text-align: center; /*modif 25/09/15*/
+  }
+
+ footer li {
+    vertical-align: middle;
+    padding: 20px 0px 0px 0px;
+    font-size: 0.8em;
+ }
+
+#vegetarian h2, #events h2 {
+    font-size: 1.3em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.center {
+    display : block;
+    vertical-align : middle;
+    float:none;
+}
+
+ /**********************************************************************/
+  @media (min-width: 768px) {
+
+    p {
+      font-size: 1.2em;
+    }
+
+    blockquote {
+      font-size: 17.5px;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: white;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #BBB9B9 !important;
+    }
+
+    .navbar {
+    border-radius: 0px;
+    }
+
+
+    #vegetarian h2, #events h2 {
+        font-size: 1.8em;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    footer p, footer p>a{
+    text-align: left;
+    }
+
+    #blog h4{
+      font-size: 2.5em;
+    }
+
+    #community p {
+      font-size: 1.4em;
+    }
+
+    #inscription button , #login button{
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    #inscription button:hover , #login button:hover, #requireLogin button:hover{
+      color: #BBB9B9;
+    }
+
+    .conteneur_bis{
+      max-width: 900px;
+    }
+
+    .wide {
+      display: inline-block;
+      float: left;
+      text-align: left;
+      margin-left: 15px;
+      width: 55%;
+      padding-right: 0;
+    }
+
+    .utilisateur .liste{
+      width: 25%;
+      padding-left: 7.5px;
+      padding-right: 7.5px;
+      border-left: 2px solid #8C091E;
+    }
+
+    .utilisateur ul{
+      float: right;
+      width: 100%;
+    }
+
+    .utilisateur li{
+      width: auto;
+    }
+
+    .display_bottom_comment{
+      display: none;
+    }
+
+    .display_bottom_profile{
+      display: block;
+    }
+    .dropdown_menu{
+      display: none;
+    }
+    .buttons_gerer_event{
+      display: block;
+    }
+}
+
+/*******************************************************************/
+
+@media (min-width: 992px){
+
+  #blog h4{
+    font-size: 3em;
+    margin-top: 20px;
+  }
+
+}
+
+/*******************************************************************/
+ @media (min-width: 1200px) {
+
+    body {
+        background-color: #D4D4D4;  /* nv couleur */
+    }
+
+
+    header, #community, #contact, #vegan, #vege, #ssgluten, #sslactose, #User,#updateUser, #createEvent, #event, #requireLogin, #myevents, #commentForm, #events, #requests, #register {
+        background-color: white; /* nv couleur */
+    }
+
+    #largeurSite {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    #vegetarian h2, #events h2 {
+        font-size: 2.0em;
+        font-weight: 700;
+        text-align: left;
+    }
+
+  footer p, footer p>a{
+    text-align: left; /*modif 25/09/15*/
+  }
+
+  #blog h4 {
+    font-size: 3.5em;
+    margin-top: 40px;
+  }
+
+  .fixNavigation {
+      z-index: 9999;
+      position: fixed;
+      top: 0; /* Mise en forme */
+      width: 1200px; /* <-- Largeur de votre site */
+      }
+
+  .conteneur_bis{
+    width: 900px
+  }
+  .wide {
+    display: inline;
+  }
+  .utilisateur ul{
+    float: right;
+  }
+  .utilisateur li{
+    width: auto;
+  }
+
+  #gererevenements{
+    width: 900px;
+  }
+}
