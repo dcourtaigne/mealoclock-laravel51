@@ -53,7 +53,9 @@
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 <div class="forms">
                   <div class="form-group" class="col-sm-10">
-                    <div id="errorMessage" class="text-danger"></div>
+                    <div id="errorEmail" class="text-danger"></div>
+                    <div id="errorPassword" class="text-danger"></div>
+                    <div id="error" class="text-danger"></div>
                       <label for="user_login">Email address:</label>
                     <input type="email" class="form-control" id="user_login" name="email" placeholder="Email">
                   </div>

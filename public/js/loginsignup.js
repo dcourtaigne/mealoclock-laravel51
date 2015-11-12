@@ -90,8 +90,14 @@ $('#loginform').submit(function ( e ) { // affectation d'un listener sur l'evene
       },
       error: function(data){
         var errors = data.responseJSON;
-        console.log(errors);
-        //$("#errorMessage").html(errors);
+        //console.log(errors.email);
+      $("#error").html('');
+      jQuery.each(errors, function(i, val){
+          $("#error").append("<p>" + val + "</p>")
+        })
+        //$("#errorEmail").html(errors.email);
+        //$("#errorPassword").html(errors.password);
+        //$("#error").html(errors.error);
       }
     });
   });
