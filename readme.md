@@ -1,7 +1,6 @@
 ## 1st Project with Laravel 5.1
 
-[![Demo](http://davidcourtaigne.fr/mealoclock)
-
+http://davidcourtaigne.fr/mealoclock/
 	
 Social website where user can create, modify and delete events.
 Other users can then request to attend the events. 
